@@ -1,13 +1,20 @@
 import React from 'react'
 import Introduction from './components/introduction'
+import About from './components/about'
 
 function page() {
     return (
         <div>
-            <main className='flex container mx-auto min-h-screen flex-col bg-black px-12 py-4'>
-                <Introduction />
+            <main className='flex  min-h-screen  flex-col bg-[#FEF9EF] '>
+                <div className=' mx-auto px-12 py-4'>
+                    <Introduction />
+                </div>
             </main>
-
+            <main className='flex  min-h-screen  flex-col bg-[#FF865E]'>
+                <div className='px-12 py-4'>
+                    <About />
+                </div>
+            </main>
         </div>
     )
 }
