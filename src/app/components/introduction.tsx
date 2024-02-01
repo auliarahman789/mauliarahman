@@ -57,7 +57,7 @@ const HeroSection = () => {
                     <p className=" text-justify text-xl text-[#FF865E]">
                         I am a Front-End Developer and Unity Programmer who is interested in website front-end development and games
                         development, has experience in creating websites, desktop applications and games on a project scale.
-                        Currently I'm focused on building responsive front-end web applications while learning back-end technologies.
+                        Currently I'am focused on building responsive front-end web applications while learning back-end technologies.
                     </p>
                 </motion.div>
             </div>
