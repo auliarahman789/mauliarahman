@@ -8,13 +8,15 @@ function Navbar() {
 
                 </div>
                 <div className='flex gap-10 lg:w-5/12  py-7'>
-                    <a className='flex text-[#FFF6F4] font-semibold '>
+                    <a className='flex text-[#FFF6F4] font-semibold ' href='#about'>
                         About
                     </a>
-                    <a className='flex text-[#FFF6F4] font-semibold '>
-                        Portfolio
+                    <a className='flex text-[#FFF6F4] font-semibold ' href='#skills'>
+                        Skills
                     </a>
-
+                    <a className='flex text-[#FFF6F4] font-semibold '>
+                        Project
+                    </a>
                     <a className='flex text-[#FFF6F4] font-semibold '>
                         Contact
                     </a>

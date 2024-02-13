@@ -4,11 +4,11 @@ import Image from "next/image";
 
 function About() {
     return (
-        <section className="lg:py-16">
+        <section className="lg:py-16" id='about'>
 
             <div className='flex'>
 
-                <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#FEF9EF] to-[#FEE440] font-bold text-6xl'>
+                <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#FEF9EF] to-[#FEE440] font-bold text-6xl' >
                     About Me
                 </p>
                 <div className='flex justify-end w-9/12 px-6'>
