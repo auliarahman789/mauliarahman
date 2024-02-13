@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-
+import Image from 'next/image'
 const PlaceCard = ({ skills, desc, image }: { skills: any, desc: any, image: any }) => {
 
     const [showDescription, setShowDescription] = useState(false);
@@ -19,7 +19,9 @@ const PlaceCard = ({ skills, desc, image }: { skills: any, desc: any, image: any
                     </div>
                     <div className="flip-card-back">
                         <div className='grid grid-cols-1 justify-items-center pt-5'>
-                            <img
+                            <Image
+                                width={32}
+                                height={32}
                                 src={image}
                                 alt='gambar'
                                 className='w-32 h-32'
