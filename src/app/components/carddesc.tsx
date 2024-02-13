@@ -19,7 +19,7 @@ const PlaceCard = ({ skills, desc, image }: { skills: any, desc: any, image: any
                     </div>
                     <div className="flip-card-back">
                         <div className='grid grid-cols-1 justify-items-center pt-5'>
-                            <Image
+                            <img
                                 width={32}
                                 height={32}
                                 src={image}

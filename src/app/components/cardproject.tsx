@@ -27,7 +27,7 @@ function Cardproject() {
                         <div className="flex w-full px-10 pb-4">
                             <a className="flex font-medium text-[#FEF9EF]"> I Code Professionally</a>
                             <a className="flex font-medium ps-[165px] text-[#FEF9EF]"> That I Finished</a>
-                            <a className="flex font-medium ps-[210px] pr-3 text-[#FEF9EF]"> Im Proficient with</a>
+                            <a className="flex font-medium ps-[210px] pr-3 text-[#FEF9EF]"> I&rsquo;m Proficient with</a>
                         </div>
                     </div>
 
