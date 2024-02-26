@@ -4,6 +4,7 @@ import About from './components/about'
 import Cardproject from './components/cardproject'
 import PlaceCard from './components/carddesc';
 
+
 const places = [
     { skills: 'TSX', desc: 'Pro banget bjir11', image: '/logo1.png' },
     { skills: 'JS', desc: 'Hansemr', image: '/anjas.png' },
@@ -19,6 +20,7 @@ const places = [
 function page() {
     return (
         <div>
+
             <main className='flex  min-h-screen  flex-col bg-[#211951] '>
                 <div className=' mx-auto px-12 py-4'>
                     <Introduction />
@@ -27,7 +29,7 @@ function page() {
                     <Cardproject />
                 </div>
             </main>
-            <main className='flex  min-h-screen  flex-col bg-[#836FFF]'>
+            <main className='flex  min-h-screen  flex-col bg-[#826fffa9] backdrop-blur-md'>
                 <div className='px-12 py-4'>
                     <About />
                 </div>

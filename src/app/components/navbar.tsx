@@ -3,8 +3,8 @@ import Image from "next/image";
 function Navbar() {
     return (
         <div>
-            <div className='flex  w-full h-12 bg-[#836FFF] shadow-xl px-8'>
-                <div className='flex gap-10 py-3'>
+            <div className='w-full h-[65px] fixed top-0 shadow-lg bg-[#826fffa9] backdrop-blur-md z-50 px-10 justify-center'>
+                <div className='flex gap-10 py-5'>
                     <a className='flex text-[#F0F3FF] font-semibold ' href='#about'>
                         About
                     </a>
@@ -15,7 +15,6 @@ function Navbar() {
                         Project
                     </a>
                 </div>
-
             </div>
         </div>
     )

@@ -11,7 +11,7 @@ function Cardproject() {
                 transition={{ duration: 1 }}
                 className="flex place-self-start text-center sm:text-left justify-self-start"
             >
-                <div className="flex bg-[#836FFF] h-full rounded-full shadow-xl">
+                <div className="flex bg-[#826fffa9] backdrop-blur-md  h-full rounded-full shadow-xl">
 
                     <div className="flex flex-col">
                         <div className="flex w-full gap-10 px-14 pt-4">
