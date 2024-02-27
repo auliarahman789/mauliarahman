@@ -4,7 +4,7 @@ import React from "react"
 
 function Cardproject() {
     return (
-        <div className="flex py-4 px-12">
+        <div className="relative flex py-4 px-12 z-[20] ">
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
                 animate={{ opacity: 1, scale: 1 }}

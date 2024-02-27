@@ -10,7 +10,7 @@ const PlaceCard = ({ skills, desc, image }: { skills: any, desc: any, image: any
     };
 
     return (
-        <div className="place-card bg-[#FEF9EF]" id='skills' onClick={toggleDescription}>
+        <div className="relative place-card bg-[#FEF9EF] z-[20]" id='skills' onClick={toggleDescription}>
 
             <div className="flip-card">
                 <div className="flip-card-inner">
