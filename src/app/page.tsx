@@ -7,7 +7,7 @@ import PlaceCard from './components/carddesc';
 import Navbar from './components/navbar';
 
 
-const places = [
+const Places = [
     { skills: 'TSX', desc: 'Pro banget bjir11', image: '/logo1.png' },
     { skills: 'JS', desc: 'Hansemr', image: '/anjas.png' },
     { skills: 'PHP', desc: 'Hansem', image: '/logo1.png' },
@@ -19,7 +19,7 @@ const places = [
 
 ];
 
-function page() {
+function Page() {
     const [color, setColor] = useState('')
     return (
         <div>
@@ -54,7 +54,7 @@ function page() {
                     </p>
                 </div>
                 <div className="flex flex-wrap pl-40 w-full gap-4 py-4 justify-items-center pt-20">
-                    {places.map((place, index) => (
+                    {Places.map((place, index) => (
                         <PlaceCard key={index} skills={place.skills} desc={place.desc} image={place.image} />
                     ))}
                 </div>
@@ -63,4 +63,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
