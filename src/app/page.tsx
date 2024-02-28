@@ -47,7 +47,7 @@ function Page() {
                     <About />
                 </div>
             </main>
-            <main className='flex  min-h-screen  flex-col bg-[#211951] pt-20'>
+            <main className='flex  min-h-screen  flex-col bg-[#211951] pt-28'>
                 <div className='flex w-full justify-center'>
                     <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#15F5BA] to-[#F0F3FF] font-bold text-6xl' >
                         My Skills

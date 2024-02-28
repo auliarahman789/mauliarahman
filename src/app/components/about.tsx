@@ -6,7 +6,7 @@ function About() {
     return (
         <section className="lg:py-16" id='about'>
 
-            <div className='relative flex '>
+            <div className='relative flex pt-16'>
 
                 <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#F0F3FF] to-[#15F5BA] font-bold text-6xl' >
                     About Me

@@ -6,7 +6,7 @@ const Navbar = ({ color }: { color: any }) => {
 
     return (
         <div>
-            <div style={{ background: `${color}` }} className='flex w-full fixed top-0 h-[65px] bg-[#826fffa9] shadow-lg backdrop-blur-md z-50 justify-center'>
+            <div style={{ background: `${color}` }} className='flex w-full fixed top-0 h-[65px] bg-[#211951ba] shadow-lg backdrop-blur-md z-50 justify-center'>
 
                 <div className='flex gap-16 py-5'>
                     <a className='flex text-[#F0F3FF] font-semibold text-xl' href='#about'>

@@ -77,9 +77,9 @@ const HeroSection = () => {
                     </Link>
                     <Link
                         href="/"
-                        className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-[#15F5BA] hover:bg-slate-800 text-white mt-3 font-semibold z-[30]"
+                        className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-[#15F5BA] hover:bg-[#211951ba] text-white mt-3 font-semibold z-[30]"
                     >
-                        <span className="block bg-[#FFF6F4] hover:bg-slate-200 rounded-full px-5 py-2 text-[#211951] z-[30]">
+                        <span className="block bg-[#FFF6F4] hover:bg-[#15F5BA] rounded-full px-5 py-2 text-[#211951] z-[30]">
                             Download CV
                         </span>
                     </Link>
