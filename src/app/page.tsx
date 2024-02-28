@@ -1,8 +1,10 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Introduction from './components/introduction'
 import About from './components/about'
 import Cardproject from './components/cardproject'
 import PlaceCard from './components/carddesc';
+import Navbar from './components/navbar';
 
 
 const places = [
@@ -18,10 +20,21 @@ const places = [
 ];
 
 function page() {
+    const [color, setColor] = useState('')
     return (
         <div>
 
             <main className='flex  min-h-screen  flex-col bg-[#211951] '>
+                <Navbar color={color} />
+                <div className='mt-5  fixed top-0 z-50'>
+                    <button onClick={() => setColor('#15f5b9b2')} className=' bg-[#15F5BA] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
+                    </button>
+                    <button onClick={() => setColor('#826fffa9')} className='bg-[#826fffa9] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
+                    </button>
+                    <button onClick={() => setColor('#211951ba')} className='bg-[#271c69] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
+                    </button>
+                </div>
+
                 <div className=' mx-auto px-12 py-4'>
                     <Introduction />
                 </div>
