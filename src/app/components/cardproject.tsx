@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import React from "react"
 
-function Cardproject() {
+function Cardproject({ color }: { color: any }) {
     return (
         <div className="relative flex py-4 px-12 z-[20] ">
             <motion.div
@@ -11,7 +11,7 @@ function Cardproject() {
                 transition={{ duration: 1 }}
                 className="flex place-self-start text-center sm:text-left justify-self-start"
             >
-                <div className="flex bg-[#211951ba] backdrop-blur-md  h-full rounded-full shadow-xl">
+                <div style={{ background: `${color}` }} className="flex bg-[#211951ba] backdrop-blur-md  h-full rounded-full shadow-xl">
 
                     <div className="flex flex-col">
                         <div className="flex w-full gap-10 px-14 pt-4">

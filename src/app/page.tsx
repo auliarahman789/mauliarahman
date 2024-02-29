@@ -8,14 +8,14 @@ import Navbar from './components/navbar';
 
 
 const Places = [
-    { skills: 'TSX', desc: 'Pro banget bjir11', image: '/logo1.png' },
-    { skills: 'JS', desc: 'Hansemr', image: '/anjas.png' },
-    { skills: 'PHP', desc: 'Hansem', image: '/logo1.png' },
-    { skills: 'HTML', desc: 'Pro banget bjir11', image: '/logodefault.png' },
-    { skills: 'CSS', desc: 'Pro banget bjir11', image: '/profile.png' },
-    { skills: 'C#', desc: 'Pro banget bjir11', image: '/profile.png' },
-    { skills: 'MySQL', desc: 'Hansem', image: '/anjas.png' },
-    { skills: 'Unity', desc: 'Pro banget bjir11', image: '/logodefault.png' },
+    { skills: 'TSX', desc: 'TypeScript', image: '/ts.png' },
+    { skills: 'JS', desc: 'JavaScript', image: '/js.png' },
+    { skills: 'PHP', desc: 'PHP', image: '/php.png' },
+    { skills: 'HTML', desc: 'HTML', image: '/html.png' },
+    { skills: 'CSS', desc: 'Tailwind CSS', image: '/tw.png' },
+    { skills: 'React', desc: 'React', image: '/react.png' },
+    { skills: 'MySQL', desc: 'MySql', image: '/sql.png' },
+    { skills: 'Unity', desc: 'Unity', image: '/unity.png' },
 
 ];
 
@@ -26,7 +26,7 @@ function Page() {
 
             <main className='flex  min-h-screen  flex-col bg-[#211951] '>
                 <Navbar color={color} />
-                <div className='mt-5  fixed top-0 z-50'>
+                <div className='mt-5  top-0 z-50'>
                     <button onClick={() => setColor('#15f5b9b2')} className=' bg-[#15F5BA] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
                     </button>
                     <button onClick={() => setColor('#826fffa9')} className='bg-[#826fffa9] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
@@ -39,7 +39,7 @@ function Page() {
                     <Introduction />
                 </div>
                 <div className='mx-auto px-12 py-4'>
-                    <Cardproject />
+                    <Cardproject color={color} />
                 </div>
             </main>
             <main className='flex  min-h-screen  flex-col bg-[#826fffa9] backdrop-blur-md'>
