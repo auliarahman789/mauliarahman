@@ -8,14 +8,14 @@ import Navbar from './components/navbar';
 
 
 const Places = [
-    { skills: 'TSX', desc: 'TypeScript', image: '/ts.png' },
-    { skills: 'JS', desc: 'JavaScript', image: '/js.png' },
-    { skills: 'PHP', desc: 'PHP', image: '/php.png' },
-    { skills: 'HTML', desc: 'HTML', image: '/html.png' },
-    { skills: 'CSS', desc: 'Tailwind CSS', image: '/tw.png' },
-    { skills: 'React', desc: 'React', image: '/react.png' },
-    { skills: 'MySQL', desc: 'MySql', image: '/sql.png' },
-    { skills: 'Unity', desc: 'Unity', image: '/unity.png' },
+    { skills: 'TSX', desc: 'TypeScript', image: '/ts.png', skilldesc: 'Type script is Programming language that i most proficient with' },
+    { skills: 'JS', desc: 'JavaScript', image: '/js.png', skilldesc: 'Use it for some Back-end' },
+    { skills: 'PHP', desc: 'PHP', image: '/php.png', skilldesc: 'Have some time with Native PHP' },
+    { skills: 'HTML', desc: 'HTML', image: '/html.png', skilldesc: 'Use on daily' },
+    { skills: 'CSS', desc: 'Tailwind CSS', image: '/tw.png', skilldesc: 'Tailwind CSS so powerfull' },
+    { skills: 'React', desc: 'React', image: '/react.png', skilldesc: 'Well Yes' },
+    { skills: 'MySQL', desc: 'MySql', image: '/sql.png', skilldesc: 'Have experience making database' },
+    { skills: 'Unity', desc: 'Unity', image: '/unity.png', skilldesc: 'Already make Inertia Showdown title' },
 
 ];
 
@@ -55,7 +55,7 @@ function Page() {
                 </div>
                 <div className="flex flex-wrap pl-40 w-full gap-4 py-4 justify-items-center pt-20">
                     {Places.map((place, index) => (
-                        <PlaceCard key={index} skills={place.skills} desc={place.desc} image={place.image} />
+                        <PlaceCard key={index} skills={place.skills} desc={place.desc} image={place.image} skilldesc={place.skilldesc} />
                     ))}
                 </div>
             </main>
