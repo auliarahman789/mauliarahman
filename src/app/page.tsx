@@ -22,9 +22,9 @@ const Places = [
 function Page() {
     const [color, setColor] = useState('')
     return (
-        <div>
+        <div id='#'>
 
-            <main className='flex  min-h-screen  flex-col bg-[#211951] '>
+            <main className='flex  min-h-screen  flex-col bg-[#211951] ' >
                 <Navbar color={color} />
                 <div className='mt-5  top-0 z-50'>
                     <button onClick={() => setColor('#15f5b9b2')} className=' bg-[#15F5BA] w-2 rounded-full mt-12 px-3 py-2 z-50 shadow-xl'>
