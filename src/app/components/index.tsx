@@ -58,22 +58,24 @@ export default function Index() {
     ]
 
     return (
-        <div ref={container} className={styles.container}>
-            <div className={styles.sticky}>
-                {
-                    pictures.map(({ src, scale }, index) => {
-                        return <motion.div key={index} style={{ scale }} className={styles.el}>
-                            <div className={styles.imageContainer}>
-                                <Image
-                                    src={src}
-                                    fill
-                                    alt="image"
-                                    placeholder='blur'
-                                />
-                            </div>
-                        </motion.div>
-                    })
-                }
+        <div className='z-[20]'>
+            <div ref={container} className={styles.container}>
+                <div className={styles.sticky}>
+                    {
+                        pictures.map(({ src, scale }, index) => {
+                            return <motion.div key={index} style={{ scale }} className={styles.el}>
+                                <div className={styles.imageContainer}>
+                                    <Image
+                                        src={src}
+                                        fill
+                                        alt="image"
+                                        placeholder='blur'
+                                    />
+                                </div>
+                            </motion.div>
+                        })
+                    }
+                </div>
             </div>
         </div>
     )
