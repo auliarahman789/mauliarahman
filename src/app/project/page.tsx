@@ -23,7 +23,7 @@ export default function Home() {
         <div>
             <div className='pt-20'>
                 <label className='flex text-transparent bg-clip-text bg-gradient-to-r from-[#F0F3FF] to-[#211951ba] text-6xl font-bold w-full justify-center'>
-                    Project Scroll Below
+                    Projects
                 </label>
                 <Navbar1 color={color} />
                 <ZoomParallax />
