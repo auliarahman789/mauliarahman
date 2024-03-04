@@ -9,13 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.39",
     "googleapis": "^133.0.0",
     "next": "14.0.3",
     "react": "^18",
     "react-animated-numbers": "^0.17.1",
     "react-dom": "^18",
     "react-scroll": "^1.9.0",
-    "react-spring": "^9.7.3"
+    "react-spring": "^9.7.3",
+    "sass": "^1.71.1"
   },
   "devDependencies": {
     "@react-three/drei": "^9.99.4",
