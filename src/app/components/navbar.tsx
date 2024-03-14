@@ -26,7 +26,7 @@ const Navbar = ({ color }: { color: any }) => {
                     <a className='flex text-[#F0F3FF] font-semibold text-lg pt-2' href='#skills'>
                         Skills
                     </a>
-                    <a className='flex text-[#F0F3FF] font-semibold text-lg pt-2' href='/project'>
+                    <a className='flex text-[#F0F3FF] font-semibold text-lg pt-2' href='#projects'>
                         Project
                     </a>
                 </div>

@@ -5,7 +5,7 @@ import About from './components/about'
 import Cardproject from './components/cardproject'
 import PlaceCard from './components/carddesc';
 import Navbar from './components/navbar';
-
+import ZoomParallax from './components/index';
 
 const Places = [
     { skills: 'TSX', desc: 'TypeScript', image: '/ts.png', skilldesc: 'Type script is Programming language that i most proficient with' },
@@ -38,16 +38,14 @@ function Page() {
                 <div className=' mx-auto px-12 py-4'>
                     <Introduction />
                 </div>
-                <div className='mx-auto px-12 py-4'>
-                    <Cardproject color={color} />
-                </div>
+
             </main>
-            <main className='flex  min-h-screen  flex-col bg-[#826fffa9] backdrop-blur-md'>
+            <main className='flex  min-h-screen  flex-col bg-[#826fffa9] backdrop-blur-md' id='about'>
                 <div className='px-12 py-4'>
                     <About />
                 </div>
             </main>
-            <main className='flex  min-h-screen  flex-col bg-[#211951] pt-28'>
+            <main className='flex  min-h-screen  flex-col bg-[#211951] pt-28' id='skills'>
                 <div className='flex w-full justify-center'>
                     <p className='text-transparent bg-clip-text bg-gradient-to-r from-[#15F5BA] to-[#F0F3FF] font-bold text-6xl' >
                         My Skills
@@ -57,6 +55,51 @@ function Page() {
                     {Places.map((place, index) => (
                         <PlaceCard key={index} skills={place.skills} desc={place.desc} image={place.image} skilldesc={place.skilldesc} />
                     ))}
+                </div>
+            </main>
+            <main className='flex  min-h-screen  flex-col bg-[#826fffa9]' id='projects'>
+                <div className='pt-28 z-[20] '>
+                    <label className='z-50 flex text-transparent bg-clip-text bg-gradient-to-r from-[#15F5BA] to-[#F0F3FF] text-6xl font-bold w-full justify-center'>
+                        Projects
+                    </label>
+                    <ZoomParallax />
+
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/22.png'>
+                        </img>
+                    </div>
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/33.png'>
+                        </img>
+                    </div>
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/44.png'>
+                        </img>
+                    </div>
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/55.png'>
+                        </img>
+                    </div>
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/66.png'>
+                        </img>
+                    </div>
+                    <div className='pt-3 z-50'>
+                        <img
+                            alt=''
+                            src='/77.png'>
+                        </img>
+                    </div>
                 </div>
             </main>
         </div>

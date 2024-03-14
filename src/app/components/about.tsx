@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 function About() {
 
     return (
-        <section className="lg:py-16" id='about'>
+        <section className="lg:py-16" >
 
             <div className='relative flex pt-16'>
 
