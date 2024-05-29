@@ -149,3 +149,41 @@ html.lenis {
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
+
+.image-container {
+  position: relative; /* Enable positioning for child elements */
+  overflow: hidden;  /* Clip overflowing content within the container */
+}
+
+.image-container img {
+  width: 100%; /* Ensure image fills the container */
+  transition: filter 0.3s ease-in-out; /* Smooth blur transition */
+  filter: blur(0); /* Initial state: no blur */
+}
+
+.image-container:hover img {
+  filter: blur(5px); /* Apply blur on hover (adjust blur intensity as needed) */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semitransparent black overlay */
+  opacity: 0; /* Initial state: invisible */
+  transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+  display: flex; /* Center text vertically and horizontally */
+  justify-content: start;
+  align-items: center;
+  color: white; /* Text color */
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1; /* Overlay becomes visible on hover */
+}
+
+h2 {
+  text-align: start; /* Center text within the overlay */
+}

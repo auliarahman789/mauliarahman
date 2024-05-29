@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
       >
-        <StarsCanvas />
+
 
         {children}
       </body>
