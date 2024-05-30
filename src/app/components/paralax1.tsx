@@ -20,8 +20,8 @@ function Image({ id }: { id: number }) {
 
     return (
         <section>
-            <div ref={ref} className="px-4 py-4 bg-[#826fff77]">
-                <img src={`/port/${id}.png`} className="rounded-b-xl " alt="" />
+            <div ref={ref} className="px-4 py-4 bg-[#211951]">
+                <img src={`/port/${id}.JPG`} className="rounded-xl " alt="" />
             </div>
             <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
         </section>
@@ -38,7 +38,7 @@ export default function Paralax2() {
 
     return (
         <>
-            {[1, 2, 3, 4, 5, 6, 7].map((image) => (
+            {[1, 2, 3, 4, 5, 6].map((image) => (
                 <>
 
                     <Image id={image} />

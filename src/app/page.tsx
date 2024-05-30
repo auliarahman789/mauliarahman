@@ -47,8 +47,8 @@ function Page() {
                     <About />
                 </div>
             </main>
-            <main className='flex  min-h-screen  flex-col bg-[#826fffa9]' id='projects'>
-                <div className='pt-28 z-[20] bg-[#826fff77]  '>
+            <main className='flex  min-h-screen  flex-col bg-[#211951]' id='projects'>
+                <div className='pt-28 z-[20] bg-[#211951]  '>
                     <Paralax2 />
                 </div>
             </main>
