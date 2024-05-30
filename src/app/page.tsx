@@ -7,7 +7,7 @@ import PlaceCard from './components/carddesc';
 import Navbar from './components/navbar';
 import ZoomParallax from './components/index';
 import Paralax2 from './components/paralax1'
-import SideScroll from './components/sidescroll'
+import SideScroll from './components/sidescroll';
 
 
 const Places = [
@@ -48,7 +48,7 @@ function Page() {
                 </div>
             </main>
             <main className='flex  min-h-screen  flex-col bg-[#826fffa9]' id='projects'>
-                <div className='pt-28 z-[20] '>
+                <div className='pt-28 z-[20] bg-[#826fff77]  '>
                     <Paralax2 />
                 </div>
             </main>

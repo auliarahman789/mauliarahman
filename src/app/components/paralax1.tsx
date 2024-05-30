@@ -20,15 +20,9 @@ function Image({ id }: { id: number }) {
 
     return (
         <section>
-            <div className="bg-[#826fffa9]">
-                <p className='absolute left-[100px] top-10 text-transparent bg-clip-text bg-gradient-to-r from-[#F0F3FF] to-[#15F5BA] font-bold text-3xl' >
-                    Project
-                </p>
+            <div ref={ref} className="px-4 py-4 bg-[#826fff77]">
+                <img src={`/port/${id}.png`} className="rounded-b-xl " alt="" />
             </div>
-            <div ref={ref}>
-                <img src={`/port/${id}.png`} alt="" />
-            </div>
-
             <motion.h2 style={{ y }}>{`#00${id}`}</motion.h2>
         </section>
     );
